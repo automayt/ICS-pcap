@@ -1,0 +1,9 @@
+20547
+tcp
+proconos
+Bristol: CWM V05:50:00 07/31
+Ladder Logic Runtime: ProConOS V4.1.0267 Jul 31 2012
+PLC Type: Bristol: CWM V05:50:00 07/31
+Project Name: trode
+Boot Project:
+Project Source Code: 

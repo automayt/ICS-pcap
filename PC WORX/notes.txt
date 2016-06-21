@@ -1,0 +1,11 @@
+1962
+tcp
+pcworx
+ILC 171 ETH 2TXVersion: 2700975
+PLC Type: ILC 171 ETH 2TX
+Model Number: 2700975
+Firmware Version: 4.10
+Firmware Date: 05/30/13
+Firmware Time: 15:11:58
+
+Check 4sics pcaps maybe.

@@ -1,0 +1,50 @@
+Hitachi
+Hitachi EH - 3004-3007/tcp-udp
+
+Mitsubishi
+MELSEC - 5000/udp | 5001/tcp
+Mitsubishi MC - 5000/udp | 5001/tcp
+5000/udp | 5001/tcp
+5000/udp | 5001/tcp
+
+Omron
+Ethernet/IP - 44818/tcp
+FINS/TCP-UDP - 9600/tcp-udp
+
+Rockwell Automation
+Ethernet/IP (exp) - 44818/tcp
+Ethernet/IP (imp) - 2222/udp
+
+Schneider Electric (Telemecanique)
+Modbus TCP - 502/tcp
+
+Siemens
+ISOTCP - 102/tcp
+
+VIPA (Yaskawa)
+Ethernet/IP - 44818/tcp
+Modbus TCP - 502/tcp
+
+Niagara Fox
+-- 1911/tcp open
+-- | fox-info:
+-- |   Fox Version: 1.0.1
+-- |   Host Name: xpvm-0omdc01xmy
+-- |   Host Address: 192.168.1.1
+-- |   Application Name: Workbench
+-- |   Application Version: 3.7.44
+-- |   VM Name: Java HotSpot(TM) Server VM
+-- |   VM Version: 20.4-b02
+-- |   OS Name: Windows XP
+
+ATG
+Guardian AST reset
+--10001/tcp open
+--| atg-info:
+--| I20100
+--| SEP 19, 2015  5:33 PM
+
+cspv4
+--2222/tcp open  CSPV4
+--| cspv4-info:
+--|_  Session ID: 65792

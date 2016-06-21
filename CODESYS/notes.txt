@@ -1,0 +1,16 @@
+It offers a TCP listener service, often running on TCP/1200 (although TCP/1201 and TCP/2455 are observed on other controller types).
+Can probably set this up manually.
+
+2455
+tcp
+codesys
+3S-Smart Software Solutions
+Operating System: Nucleus PLUS
+Operating System Details: Nucleus PLUS version unknown
+Product: 3S-Smart Software Solutions
+
+The CoDeSys runtime does a lot of things.  Obviously its main purpose is to run ladder logic.  Ladder logic is executed in the form of a wrapped binary, compiled for the operating system and CPU of the PLC.  The ladder logic file contains a header followed by binary executable code.  The CoDeSys ladder logic engine loads the file into memory, and then jumps into that memory and begins executing instructions contained in the file.  This is important when we consider the privileges that CoDeSys often runs with, and its lack of authentication for file transfer.
+The CoDeSys runtime has ancillary functions as well.  It offers a TCP listener service, often running on TCP/1200 (although TCP/1201 and TCP/2455 are observed on other controller types).  The TCP listener service allows for file transfer as well as a command-line interface.
+Neither the command-line interface nor the file transfer functionality requires authentication.  The CoDeSys runtime engine needs to access /dev devices on embedded Linux and writes to an output bus (K-Bus, which is connected over a PCI interface in the WAGO).  As a consequence, manufacturers often run the ladder logic runtime as ‘root’ (on linux systems), ‘administrator’ (on embedded windows), or run it on an operating system which does not provide deprivileged users.
+The result of all of this is that a user with the right know-how can connect to the command-line of CoDeSys and execute commands, as well as transfer files.  Commands include the ability to stop and start the running ladder logic, wipe PLC memory, and list files and directories.  Transferring files include the ability to send and receive.  Sending and receiving files also suffers from directory traversal — we can read and write files outside of the CoDeSys directory on the controller using “../” notation.  On most operating systems this includes the ability to overwrite critical configuration files such as /etc/passwd and /etc/shadow on linux, or the windows registry on Windows CE.
+The ladder logic runtime file is transferred in conjunction with a 32-bit checksum.  The 32-bit checksum is computed by adding the bytes of the runtime file together, and treating the result as a 32-bit integer.  The ladder logic runtime transfer is mostly implemented in this release; a missing command is required to make the new ladder logic upload active on the PLC.
