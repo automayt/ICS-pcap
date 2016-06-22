@@ -3,6 +3,13 @@
 ## What is this?
 This is a collection of PCAPs (or additional notes where PCAPs are still needed) for ICS/SCADA utilities and protocols.
 
+## How do I get it?
+First, make sure that your git is updated. Second, you'll want to install GIT Large File Storage (LFS). 
+- Go to https://git-lfs.github.com/ 
+- Download the archive
+- run the installer.
+- git lfs clone https://github.com/automayt/ICS-pcap.git
+
 ## Where did you get these?
 Credit for these go out to
 - digitalbond
