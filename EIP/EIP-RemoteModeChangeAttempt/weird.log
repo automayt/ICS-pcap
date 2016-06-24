@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-06-24-11-58-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1251746658.611803	-	-	-	-	-	unknown_packet_type	-	F	bro
+1251746659.625874	-	-	-	-	-	truncated_IP	-	F	bro
+1251746672.239952	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1251746695.565365	CjCU4BrfTYu36lXug	192.168.10.107	137	192.168.10.21	137	dns_unmatched_reply	-	F	bro
+1251746695.566875	CvLxlBAgX3ohQanT7	192.168.10.21	139	192.168.10.107	3503	connection_originator_SYN_ack	-	F	bro
+1251746695.568168	CvLxlBAgX3ohQanT7	192.168.10.21	139	192.168.10.107	3503	data_before_established	-	F	bro
+1251746704.730112	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1251746704.730112	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-06-24-11-58-48

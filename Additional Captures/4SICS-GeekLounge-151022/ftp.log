@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ftp
+#open	2016-06-24-11-39-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	user	password	command	arg	mime_type	file_size	reply_code	reply_msg	data_channel.passive	data_channel.orig_h	data_channel.resp_h	data_channel.resp_p	fuid
+#types	time	string	addr	port	addr	port	string	string	string	string	string	count	count	string	bool	addr	addr	port	string
+1445512144.008716	CRQoDD32KSfgGVEwHe	192.168.2.22	59431	192.168.88.49	21	ftp	lol	PORT	192,168,2,22,194,16	-	-	503	Bad sequence of commands.	F	192.168.88.49	192.168.2.22	49680	-
+#close	2016-06-24-11-39-44

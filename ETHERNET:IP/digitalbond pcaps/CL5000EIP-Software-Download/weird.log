@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-06-24-12-07-28
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1224798431.839392	-	-	-	-	-	truncated_IP	-	F	bro
+1224798451.548424	-	-	-	-	-	unknown_packet_type	-	F	bro
+#close	2016-06-24-12-07-28

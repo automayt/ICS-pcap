@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-12-07-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1226509416.737157	C0feRq2UbbJSDHJy49	192.168.10.22	2975	192.168.10.105	139	tcp	-	0.015678	1921	1615	SF	-	-	0	ShADdFf	18	2649	16	2263	(empty)
+1226509416.736405	CZZlNQ1OYf4Pk3RFd1	192.168.10.22	137	192.168.10.255	137	udp	dns	-	-	-	S0	-	-	0	D	1	78	0	0	(empty)
+1226509416.736820	Co4kEc1HfkzTMFAlsh	192.168.10.22	137	192.168.10.105	137	udp	dns	-	-	-	S0	-	-	0	D	1	90	0	0	(empty)
+1226509435.680649	CQUPjH1qoJhsjBPPe	192.168.10.22	138	192.168.10.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)
+1226509517.951448	CjCMQ22gwAoznPNnh	192.168.10.21	2807	192.168.10.105	139	tcp	-	0.015448	1921	1615	SF	-	-	0	ShADdFf	18	2649	16	2263	(empty)
+1226509517.950287	C6c13a46yigw0HY5Ib	192.168.10.21	137	192.168.10.255	137	udp	dns	-	-	-	S0	-	-	0	D	1	78	0	0	(empty)
+1226509517.950699	ClSnWE3ZOMy9LOL5C6	192.168.10.21	137	192.168.10.105	137	udp	dns	-	-	-	S0	-	-	0	D	1	90	0	0	(empty)
+1226509525.223206	C0IQLP1LxuRUC5Nuvk	192.168.10.24	3960	192.168.10.105	139	tcp	-	0.014272	1921	1615	SF	-	-	0	ShADdFf	18	2649	16	2263	(empty)
+1226509525.221995	CxYr5s2to1A4Mxhni1	192.168.10.24	137	192.168.10.255	137	udp	dns	-	-	-	S0	-	-	0	D	1	78	0	0	(empty)
+1226509525.222398	CTAmjb143GtpgwANK3	192.168.10.24	137	192.168.10.105	137	udp	dns	-	-	-	S0	-	-	0	D	1	90	0	0	(empty)
+1226509328.657735	CfPlcW2XLJF9ydjCE3	192.168.10.105	1102	192.168.10.120	44818	tcp	-	265.963716	187975	207070	OTH	-	-	0	ADad	1650	253975	1668	273790	(empty)
+1226509566.421278	CS6wbX2Y7azF9rxix6	192.168.10.24	138	192.168.10.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)
+1226509567.763046	CQkva4TBgs5qrfIMb	192.168.10.21	138	192.168.10.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)
+#close	2016-06-24-12-07-26

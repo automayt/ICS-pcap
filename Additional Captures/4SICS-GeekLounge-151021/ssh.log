@@ -1,0 +1,49 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2016-06-24-11-37-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key
+#types	time	string	addr	port	addr	port	count	bool	enum	string	string	string	string	string	string	string	string
+1445422295.840896	CF8bIB2RRTP3EzSjf1	192.168.2.64	52297	192.168.88.95	22	1	-	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-Mocana SSH 	-	-	-	-	-	-
+1445422298.506800	CZiF4y1wr2XNGLIdL7	192.168.2.64	52179	192.168.88.95	22	1	-	-	SSH-1.5-NmapNSE_1.0	SSH-2.0-Mocana SSH 	-	-	-	-	-	-
+1445422297.943871	CEQ4Kt3tJzQby8FRo5	192.168.2.64	52377	192.168.88.60	22	1	-	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422298.159139	CLZPLT3CxczzSH9RIi	192.168.2.64	52378	192.168.88.60	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422298.424376	CLOtjF1zM3fSzPuBRc	192.168.2.64	52381	192.168.88.60	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422299.155526	CBDX2m3wXq2kO86SWf	192.168.2.64	52402	192.168.88.75	22	1	-	-	SSH-1.5-NmapNSE_1.0	SSH-1.99-IPSSH-6.6.0	-	-	-	-	-	0a:b2:7c:e6:97:17:de:ce:15:c2:5b:45:ae:da:95:4f
+1445422298.679977	CUwe8l4bA63Uccqnzj	192.168.2.64	52386	192.168.88.60	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422298.945944	CUikwB1F7e8TYfy46d	192.168.2.64	52396	192.168.88.60	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422299.212560	C9a4V21JMV9JwAox7l	192.168.2.64	52404	192.168.88.60	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422301.418575	CtC6QAWRM9R5EfSMd	192.168.2.64	52444	192.168.88.115	22	1	-	-	SSH-1.5-NmapNSE_1.0	SSH-2.0-OpenSSH_4.0	-	-	-	-	-	-
+1445422305.395886	CIepqt4ytRyWQOQo1a	192.168.2.64	52494	192.168.88.115	22	1	-	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-OpenSSH_4.0	-	-	-	-	-	-
+1445422305.937678	CQ2Fy1488bXWAJkPii	192.168.2.64	52500	192.168.88.75	22	1	-	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-1.99-IPSSH-6.6.0	-	-	-	-	-	0a:b2:7c:e6:97:17:de:ce:15:c2:5b:45:ae:da:95:4f
+1445422306.912012	CfFV5dDVhPLUYbXXb	192.168.2.64	52511	192.168.88.75	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-1.99-IPSSH-6.6.0	aes128-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422307.190956	CsyUzM1tRMueNlKk1d	192.168.2.64	52512	192.168.88.75	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-1.99-IPSSH-6.6.0	aes128-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422307.464307	CtdO4O2dSzkWBIKhq7	192.168.2.64	52516	192.168.88.75	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-1.99-IPSSH-6.6.0	aes128-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422307.725196	CVl4DV3Cf8YFbW9Xzi	192.168.2.64	52518	192.168.88.75	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-1.99-IPSSH-6.6.0	aes128-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422306.367640	C4Lztz1u7TGtSkhOXe	192.168.2.64	52505	192.168.88.75	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-1.99-IPSSH-6.6.0	aes128-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	ssh-dss	f0:5f:8a:b6:71:57:75:a6:08:5b:28:c0:12:0f:87:b8
+1445422309.762528	Car2hv2O3BMB77vsH	192.168.2.64	52527	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422308.665797	CSCVXk1EZqrUGFZ6lh	192.168.2.64	52523	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422309.239464	C8eJXD3Xqb7jRRSKa6	192.168.2.64	52524	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422307.248096	CQDWSn4bALXxpiyEmj	192.168.2.64	52510	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group1-sha1	ssh-rsa	c1:70:ab:52:48:ab:e5:dc:47:9c:94:ed:99:6f:94:4f
+1445422305.979294	CxkwpF4cSd4Dgll0Pa	192.168.2.64	52498	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group1-sha1	ssh-dss	86:fc:3d:e9:6d:4c:96:9f:a2:6b:17:73:70:94:5a:44
+1445422316.099305	CSoUCtyK76XAqraN1	192.168.2.64	52497	192.168.88.95	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-Mocana SSH 	aes256-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422289.307042	CNhOsE2csExWYo7Mzd	192.168.2.64	52167	192.168.88.61	22	1	-	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422319.811139	C4dQuv4OvDDIqfC8ca	192.168.2.64	52597	192.168.88.61	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422320.285333	CAAry11mI0HTSGiuIf	192.168.2.64	52599	192.168.88.61	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422320.493018	CtaH6f4DW4RHZOkB1k	192.168.2.64	52606	192.168.88.61	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422301.386322	Cjbviu26LSAbV1uyB	192.168.2.64	52385	192.168.88.95	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-Mocana SSH 	aes256-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	ssh-dss	fe:65:e7:b0:24:ab:ff:56:c2:ee:31:e7:32:8f:dc:b4
+1445422319.554434	C5ijolohgLwjlVYp2	192.168.2.64	52596	192.168.88.61	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422320.023244	CM7Z4p33QyoG535uT4	192.168.2.64	52598	192.168.88.61	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-moxa_1.0	-	-	-	-	-	-
+1445422326.917546	CsIoch2SDxdemqfhQ9	192.168.2.64	52589	192.168.88.95	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-Mocana SSH 	aes256-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422333.550183	CDVzvL1GqJ73LeNmu9	192.168.2.64	52634	192.168.88.95	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-Mocana SSH 	aes256-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445422344.195065	CDveMy3OAyQJokAJyh	192.168.2.64	52641	192.168.88.95	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-Mocana SSH 	aes256-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	Algorithm negotiation failed	-
+1445425456.174893	C3BeFf35p55ONt2if4	192.168.2.42	38269	192.168.88.115	22	1	-	-	SSH-1.5-Nmap-SSH1-Hostkey	SSH-2.0-OpenSSH_4.0	-	-	-	-	-	-
+1445425456.684146	CoZBho4T2PDt5t4Nkj	192.168.2.42	38278	192.168.88.115	22	1	-	-	SSH-1.5-NmapNSE_1.0	SSH-2.0-OpenSSH_4.0	-	-	-	-	-	-
+1445425457.246315	ClinaC1k20tpP6Vh3e	192.168.2.42	38287	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group14-sha1	ssh-dss	86:fc:3d:e9:6d:4c:96:9f:a2:6b:17:73:70:94:5a:44
+1445425458.440397	CQi8Td2ks6xcGwZkga	192.168.2.42	38294	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group14-sha1	ssh-rsa	c1:70:ab:52:48:ab:e5:dc:47:9c:94:ed:99:6f:94:4f
+1445425459.891809	CUzkDn3sReDP2zpCEf	192.168.2.42	38296	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group14-sha1	Algorithm negotiation failed	-
+1445425460.924071	CwqDeMOTDmYkXRTDe	192.168.2.42	38298	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group14-sha1	Algorithm negotiation failed	-
+1445425460.427161	CoYN601majN7ERiBwg	192.168.2.42	38297	192.168.88.115	22	2	-	-	SSH-2.0-Nmap-SSH2-Hostkey	SSH-2.0-OpenSSH_4.0	aes128-cbc	hmac-md5	none	diffie-hellman-group14-sha1	Algorithm negotiation failed	-
+#close	2016-06-24-11-38-17

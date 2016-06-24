@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-58-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1220389091.608484	CbKoyH6a1Gt8Ot9i	192.168.10.22	138	192.168.10.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)
+1220389182.888630	CPFTJg7wRzKmKtDy4	192.168.10.105	1071	192.168.10.120	44818	tcp	-	2.988002	0	0	S0	-	-	0	S	2	96	0	0	(empty)
+1220389191.912667	CUGMmg4OoSU0EmDtXk	192.168.10.105	1071	192.168.10.120	44818	tcp	-	-	-	-	S0	-	-	0	S	1	48	0	0	(empty)
+1220389196.952983	CRmGBLqwTcthMWjz1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	-	-	-	S0	-	-	0	D	1	328	0	0	(empty)
+1220389196.953255	CihWCN3QonQkAN8Xr2	255.255.255.255	68	192.168.10.105	67	udp	dhcp	-	-	-	SHR	-	-	0	d	0	0	1	328	(empty)
+1220389081.197752	CauYed4JOE41faw62j	192.168.10.120	44818	192.168.10.105	1057	tcp	-	80.174816	262295	2097179	OTH	-	-	0	AadD	5305	474494	5261	2307849	(empty)
+1220389221.278121	Cwttrx3WtzQl355txl	192.168.10.105	1072	192.168.10.120	44818	tcp	-	40.934776	382	518	S1	-	-	0	ShADad	20	1190	18	1242	(empty)
+#close	2016-06-24-11-58-47

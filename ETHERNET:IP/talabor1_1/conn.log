@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-59-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1256830439.657602	CwmuGu3eZV6oNKjd3j	192.168.0.52	137	192.168.0.255	137	udp	dns	-	-	-	S0	-	-	0	D	1	78	0	0	(empty)
+1256830423.587667	C4Uwei4DPY9jkKbwf2	192.168.0.46	3286	192.168.0.101	44818	tcp	-	49.858623	6012	6543	RSTR	-	-	0	ShADadFr	120	10820	120	11347	(empty)
+1256830420.197089	CE5Kqd2RIGUiCUcGMb	192.168.0.46	3162	193.40.240.200	445	tcp	-	43.964252	324	170	OTH	-	-	0	DdA	8	644	4	330	(empty)
+1256830426.311960	Cn60Xo4KHRn2Ws5oK6	192.168.0.71	138	192.168.0.255	138	udp	-	-	-	-	S0	-	-	0	D	1	265	0	0	(empty)
+1256830465.097871	Cs5FPPfmt2TIgeUqi	193.40.240.224	2267	239.255.255.250	1900	udp	-	0.000602	411	0	S0	-	-	0	D	3	495	0	0	(empty)
+1256830420.947034	C3nxvO1l6Bu8JnWP	193.40.240.1	1900	239.255.255.250	1900	udp	-	0.001537	1661	0	S0	-	-	0	D	5	1801	0	0	(empty)
+1256830436.599310	Crow613qNecXGzeSf7	192.168.0.90	138	192.168.0.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)
+1256830471.659107	CVuR871Fr25B0TIszh	0.0.0.0	68	255.255.255.255	67	udp	dhcp	5.030588	600	0	S0	-	-	0	D	2	656	0	0	(empty)
+1256830464.017932	CTnih110QZExl3Rmah	fe80::942b:61c9:c986:62ab	546	ff02::1:2	547	udp	-	6.997144	428	0	S0	-	-	0	D	4	620	0	0	(empty)
+#close	2016-06-24-11-59-32

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-06-24-11-58-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1226527810.986146	-	-	-	-	-	truncated_IP	-	F	bro
+1226527822.977430	-	-	-	-	-	unknown_packet_type	-	F	bro
+1226527929.046096	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1226528008.346740	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1226528018.388663	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-06-24-11-58-49

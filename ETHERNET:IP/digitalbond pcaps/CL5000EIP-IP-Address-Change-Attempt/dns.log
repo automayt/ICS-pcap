@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2016-06-24-12-07-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1226525258.081936	Cg2qza4IBeNCZ6ePeg	192.168.10.22	137	192.168.10.255	137	udp	38790	DBLICENSESERVER	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1226525258.081991	Ch0cRWb7fGpbdF74k	192.168.10.22	137	192.168.10.105	137	udp	38790	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1226525359.279888	Cv8AMv3lIDWjSHXYRb	192.168.10.21	137	192.168.10.255	137	udp	47137	DBLICENSESERVER	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1226525359.280667	CPpfk5cJkuUflHh8j	192.168.10.21	137	192.168.10.105	137	udp	47137	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1226525366.552005	CZQLCl23NtEdXjb2K7	192.168.10.24	137	192.168.10.255	137	udp	35955	DBLICENSESERVER	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1226525366.552412	CaLLGT3FpBJDoyPA67	192.168.10.24	137	192.168.10.105	137	udp	35955	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+#close	2016-06-24-12-07-27

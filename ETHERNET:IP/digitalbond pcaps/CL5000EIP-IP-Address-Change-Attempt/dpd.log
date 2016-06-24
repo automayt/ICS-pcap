@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2016-06-24-12-07-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1226525424.490850	Ce8MMC1PQLdbLpKudb	0.0.0.0	68	255.255.255.255	67	udp	DHCP	no DHCP message type option
+1226525424.491001	Cv402ee8wwqLZ0dmd	255.255.255.255	68	192.168.10.105	67	udp	DHCP	no DHCP message type option
+#close	2016-06-24-12-07-27

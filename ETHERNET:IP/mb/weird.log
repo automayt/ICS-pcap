@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-06-24-11-59-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1352718180.327131	CoOZHJ1GCDQoY9S1q3	192.168.113.4	1594	141.81.0.10	3389	TCP_ack_underflow_or_misorder	-	F	bro
+1352718180.983455	-	-	-	-	-	unknown_packet_type	-	F	bro
+1352718181.129602	-	-	-	-	-	truncated_IP	-	F	bro
+1352718202.265346	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1352718203.519831	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1352718207.765744	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1352718241.999778	C70TrT1g5FcIvGhG3e	141.81.0.10	59800	141.81.0.49	8000	bad_HTTP_request	-	F	bro
+1352718242.134118	Ctlq9IdKUQIwTFye8	141.81.0.10	59801	141.81.0.49	8000	bad_HTTP_request	-	F	bro
+1352718261.547274	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1352718265.222877	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1352718265.222877	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1352718265.222877	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1352718265.222877	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-06-24-11-59-32

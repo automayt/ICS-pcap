@@ -1,0 +1,40 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2016-06-24-12-10-57
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1257542205.937902	FkzobM1FR0R2iAausg	64.210.72.11	192.168.1.120	CPwnkA1xvK18IkADkf	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257542206.088307	FKnHya1P1cKKDsAVO	64.210.72.11	192.168.1.120	CPwnkA1xvK18IkADkf	HTTP	0	(empty)	application/zip	-	0.001721	-	F	3204	3204	0	0	F	-	-	-	-	-
+1257542506.766708	F66sUc4M5tGZf5GZS5	96.17.147.105	192.168.1.120	CVIKAx1VD9LIWfurdf	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257542807.486202	Fmnk312np9zTPxHsP5	96.17.147.113	192.168.1.120	CmzxCMHJO30fxEuDe	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257542807.637102	FOuKXo3Rml2JrGrwz6	96.17.147.113	192.168.1.120	CmzxCMHJO30fxEuDe	HTTP	0	(empty)	application/zip	-	0.004224	-	F	3205	3205	0	0	F	-	-	-	-	-
+1257543108.504750	F4IFxrcZLxQrmsoqh	96.17.147.104	192.168.1.120	CtWZoc2olmhu4MiGud	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257543108.657078	FG4MRN3zYPVxliInzd	96.17.147.104	192.168.1.120	CtWZoc2olmhu4MiGud	HTTP	0	(empty)	application/zip	-	0.004158	-	F	3213	3213	0	0	F	-	-	-	-	-
+1257543215.965319	FB8OTe4ngyEJ8ZY8dg	192.168.1.1	192.168.1.120	C6UVCLfg8ZNfRSwGh	HTTP	0	(empty)	application/xml	-	0.004952	-	F	3444	3444	0	0	F	-	-	-	-	-
+1257543216.007058	FKjtVe28pWGuc67hm1	192.168.1.1	192.168.1.120	CgkB4A1TOmgWQhWwl	HTTP	0	(empty)	application/xml	-	0.000501	-	F	958	958	0	0	F	-	-	-	-	-
+1257543216.054559	FoAnnb3MRDsxEEXQQc	192.168.1.1	192.168.1.120	C1yK6g2bcqTw7a3fBd	HTTP	0	(empty)	application/xml	-	0.010243	-	F	7840	7840	0	0	F	-	-	-	-	-
+1257543216.091407	FvUlJPvg0OVMnWNNl	192.168.1.1	192.168.1.120	CFJQAv1pzko9Za3aKf	HTTP	0	(empty)	text/plain	-	0.000000	-	T	300	300	0	0	F	-	-	-	-	-
+1257543216.099212	Fphhtb2qOS8ExeJnLj	192.168.1.1	192.168.1.120	CZGk4R1GvRfYmbMr6b	HTTP	0	(empty)	application/xml	-	0.000379	-	F	816	816	0	0	F	-	-	-	-	-
+1257543352.501027	FGxCuI1GqsCazVA1r	96.17.147.88	192.168.1.120	CIMU6o2ojJkgyP4US8	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257543353.080638	FfXtz8f4NjDqVFjW8	96.17.147.88	192.168.1.120	CIMU6o2ojJkgyP4US8	HTTP	0	(empty)	text/html	-	0.000000	-	F	292	292	0	0	F	-	-	-	-	-
+1257543353.122702	FK7aOO1qnbn4AYevvc	96.17.147.88	192.168.1.120	CIMU6o2ojJkgyP4US8	HTTP	0	(empty)	text/html	-	0.000000	-	F	292	292	0	0	F	-	-	-	-	-
+1257543353.138972	F4MeC21UQwhzaUnVnd	96.17.147.88	192.168.1.120	Ck5sOj3X1j7dqCeHY6	HTTP	0	(empty)	application/zip	-	0.004438	-	F	3198	3198	0	0	F	-	-	-	-	-
+1257543353.188739	Fo4fL62mveUdlrsWb9	96.17.147.88	192.168.1.120	CMwBfp2v1DdXd4sBN8	HTTP	0	(empty)	text/html	-	0.000000	-	F	292	292	0	0	F	-	-	-	-	-
+1257543353.202891	FmWf5sf44YF8QQ9Xj	96.17.147.88	192.168.1.120	CIMU6o2ojJkgyP4US8	HTTP	0	(empty)	text/html	-	0.000000	-	F	292	292	0	0	F	-	-	-	-	-
+1257543353.232080	F9EuhX3hLMDHNRQif2	96.17.147.88	192.168.1.120	COKlGi3b9JWz69l7ka	HTTP	0	(empty)	text/html	-	0.000000	-	F	292	292	0	0	F	-	-	-	-	-
+1257543353.244501	FT6qYH3gv6Ei7CYV8l	96.17.147.88	192.168.1.120	CIMU6o2ojJkgyP4US8	HTTP	0	(empty)	text/html	-	0.000000	-	F	292	292	0	0	F	-	-	-	-	-
+1257543409.344496	FiWm7I2fsAOd4GxLt2	96.17.147.114	192.168.1.120	Ct04vE4qt3nSF9T8k2	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257543710.083745	FI0ETp1bX5cSUm8mp1	96.17.147.120	192.168.1.120	CUcPnvSbgSp5srxRl	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257543710.255392	FJx2YJ3NVRQDKN6mq6	96.17.147.120	192.168.1.120	CUcPnvSbgSp5srxRl	HTTP	0	(empty)	application/zip	-	0.001766	-	F	3202	3202	0	0	F	-	-	-	-	-
+1257544010.951745	Ff4u7v2fa7FSR1i2N3	96.17.147.113	192.168.1.120	CesBjp2FYgLLAGhfT8	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257544311.693129	FdhDa21Fi4ffCBkcIl	96.17.147.129	192.168.1.120	CuKkFh3DrKDO4IulCb	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257544311.832604	FBqmqKkxuDRPWVYi5	96.17.147.129	192.168.1.120	CuKkFh3DrKDO4IulCb	HTTP	0	(empty)	application/zip	-	0.004223	-	F	3218	3218	0	0	F	-	-	-	-	-
+1257544612.661525	FR2F7m2DDmQ8lJPl16	96.17.147.113	192.168.1.120	C03e8f3DpZj9yoM4Ka	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257544612.807371	FlU8UT2bkPDR2LmdCj	96.17.147.113	192.168.1.120	C03e8f3DpZj9yoM4Ka	HTTP	0	(empty)	application/zip	-	0.005619	-	F	3195	3195	0	0	F	-	-	-	-	-
+1257544913.488852	FCQfee2YwcxXnl9qY5	96.17.147.129	192.168.1.120	CiB0rNBJ8Q9aGKZGe	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+1257544913.608949	FZMLGh2M4WDJxmpZ5a	96.17.147.129	192.168.1.120	CiB0rNBJ8Q9aGKZGe	HTTP	0	(empty)	application/zip	-	0.005561	-	F	3187	3187	0	0	F	-	-	-	-	-
+1257545214.275367	FaNPC9HIGZvmBLgC	64.210.72.11	192.168.1.120	CzhAVM1890FdAVSBob	HTTP	0	(empty)	-	-	0.000000	-	F	1	1	0	0	F	-	-	-	-	-
+#close	2016-06-24-12-10-58

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-44-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1218921726.697382	COEGXl3fePwrQs2cse	192.168.0.103	47808	192.168.0.24	47808	udp	-	4.654367	704	890	SF	-	-	0	Dd	31	1572	31	1758	(empty)
+1218921708.829894	CSG6wF4Z1SMqUCkDO3	192.168.0.24	47808	192.168.0.255	47808	udp	-	17.864207	76	0	S0	-	-	0	D	3	160	0	0	(empty)
+1218921708.802690	C9VKsf26FnRx0oTXI8	192.168.0.103	47808	192.168.0.255	47808	udp	-	17.824031	57	0	S0	-	-	0	D	3	141	0	0	(empty)
+#close	2016-06-24-11-44-35

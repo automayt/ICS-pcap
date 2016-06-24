@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2016-06-24-11-58-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1251746662.237127	CtIuSB1U0rcr5nlHQf	192.168.10.21	137	192.168.10.255	137	udp	43109	WIN2K3LAB023	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1251746695.564753	CJuq1C1pe5M7kFY2wg	192.168.10.107	137	192.168.10.255	137	udp	40778	WIN2K3LAB021	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1251746695.565365	CjCU4BrfTYu36lXug	192.168.10.107	137	192.168.10.21	137	udp	40778	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+#close	2016-06-24-11-58-48

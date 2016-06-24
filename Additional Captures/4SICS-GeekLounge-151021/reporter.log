@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2016-06-24-11-37-57
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1445422181.461286	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422207.022683	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422208.039677	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422208.478645	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422208.484681	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422208.518259	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422209.512212	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422213.596930	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422216.498830	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445422216.743124	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445426162.174390	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445444421.646111	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445445409.393521	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445445414.399457	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+1445445414.403504	Reporter::ERROR	field value missing [KRB::msg$client_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 147
+#close	2016-06-24-11-38-17

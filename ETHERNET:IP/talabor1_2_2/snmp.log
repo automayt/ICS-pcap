@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2016-06-24-11-59-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1256831422.135490	CKGojK1lMbXwBQbMOl	192.168.0.46	1088	193.40.240.128	161	5.999178	1	public	6	0	0	0	-	-
+#close	2016-06-24-11-59-32

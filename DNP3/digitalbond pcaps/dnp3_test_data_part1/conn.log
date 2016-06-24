@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-46-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1097501938.503079	ClUp2637AawmNlX2mj	10.0.0.8	2789	10.0.0.3	20000	tcp	dnp3_tcp	123.537063	64	51	S1	-	-	0	ShAdDa	8	392	5	259	(empty)
+1097502623.045756	Ctzbkq1s3iQobTQmX6	10.0.0.8	2803	10.0.0.3	20000	tcp	dnp3_tcp	25.632115	48	17	SF	-	-	0	ShAdDaFf	7	336	6	265	(empty)
+1097504102.255746	CJUJ2E4z3apwS4a9Cf	10.0.0.8	2828	10.0.0.3	20000	tcp	dnp3_tcp	121.827809	229	910	S1	-	-	0	ShAdDa	20	1037	26	1958	(empty)
+1097505644.006837	CRTtMscQSj8Ep9zfb	10.0.0.9	1080	10.0.0.3	20000	tcp	dnp3_tcp	384.594221	153	422	S1	-	-	0	ShADd	24	1121	21	1270	(empty)
+1097507785.883614	ClWgaSD40hZBPD0V8	10.0.0.8	1086	10.0.0.3	20000	tcp	dnp3_tcp	70.374195	215	258	S1	-	-	0	ShAdDa	19	983	12	746	(empty)
+1097510947.092701	CNrOTI3CK9WUnGUKvi	10.0.0.8	1159	10.0.0.3	20000	tcp	dnp3_tcp	12.394479	48	17	S1	-	-	0	ShAdDa	5	256	4	185	(empty)
+1097512255.234470	CdquPf2PZXj3xvVXp4	10.0.0.8	1184	10.0.0.3	20000	tcp	dnp3_tcp	12.411495	48	51	S1	-	-	0	ShAdD	7	336	4	219	(empty)
+1097513177.295531	CDqOrV2wMQFOUgKNne	10.0.0.9	1084	10.0.0.3	20000	tcp	dnp3_tcp	7.811899	48	17	SF	-	-	0	ShAdDaFf	7	336	6	265	(empty)
+#close	2016-06-24-11-46-38

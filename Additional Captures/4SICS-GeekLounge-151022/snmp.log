@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2016-06-24-11-39-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time
+1445511989.246623	CTfFsn3SclGZHZlG36	192.168.2.22	52186	192.168.88.30	161	2.032711	1	public	134	0	134	0	Siemens, SIMATIC S7, CPU-1200, 6ES7 212-1BD30-0XB0 SZVA3YU6014773  , 1, V.1.0.1, SZVA3YU6014773  	1445425638.089385
+1445512010.292693	CkDuQz3TStBd2UD4Wd	192.168.2.22	57279	192.168.88.30	161	2.015347	1	public	134	0	134	0	Siemens, SIMATIC S7, CPU-1200, 6ES7 212-1BD30-0XB0 SZVA3YU6014773  , 1, V.1.0.1, SZVA3YU6014773  	1445425638.132908
+#close	2016-06-24-11-39-44

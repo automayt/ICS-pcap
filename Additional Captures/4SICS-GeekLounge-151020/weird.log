@@ -1,0 +1,94 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-06-24-11-37-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1445353844.400676	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445353853.650558	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445354522.595259	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445354524.562490	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445355132.934133	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445355134.701423	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445355744.839089	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445355752.427656	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445356344.974171	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445356361.926770	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445356955.110494	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445356972.052917	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445357565.247077	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445357581.823879	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445358165.382882	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445358191.608152	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445358775.531890	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445358801.577379	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445359385.678444	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445359412.032468	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445359995.806920	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445360022.316696	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445360595.941689	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445360631.853905	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445361206.078551	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445361242.071047	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445361816.215241	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445361851.689586	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445362426.354406	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445362461.816634	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445363036.498743	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445363071.680042	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445363646.639393	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445363681.122843	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445364256.782809	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445364290.565150	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445364856.913625	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445364900.984457	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445365467.054444	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445365511.186183	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445366077.189323	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445366120.571160	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445366687.329960	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445366731.012990	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445367297.475538	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445367340.415876	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445367897.610338	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445367950.957252	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445368507.746491	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445368560.355556	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445369117.883225	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445369166.803602	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445369728.023004	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445369779.895390	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445370328.157359	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445370389.928093	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445370938.296207	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445370989.857167	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445371548.443418	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445371600.019080	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445372158.580731	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445372209.752225	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445372768.716026	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445372820.141765	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445373378.850751	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445373429.245732	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445373988.993763	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445374039.005749	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445374599.127085	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445374649.142252	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445375209.262929	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445375259.003295	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445375819.413015	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445375869.338412	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445376429.561087	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445376478.663066	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445377039.695523	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445377089.129953	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445377649.834175	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445377698.545856	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445378259.969264	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445378308.893014	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445378870.117979	-	-	-	-	-	unknown_packet_type	-	F	bro
+1445378918.237197	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1445379032.197760	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-06-24-11-37-50

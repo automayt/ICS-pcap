@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dnp3
+#open	2016-06-24-11-38-44
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fc_request	fc_reply	iin
+#types	time	string	addr	port	addr	port	string	string	count
+1445503521.375539	CG7O2r2TWIFfpSFAd	192.168.2.166	2127	192.168.88.95	20000	DISABLE_UNSOLICITED	-	-
+1445503563.740016	CKCj3A3zdw0aZK1sQ5	192.168.2.166	2137	192.168.88.95	20000	UNSOLICITED_RESPONSE	-	-
+1445503636.003435	CzoZVz1OjEQpHOGb85	192.168.2.166	2142	192.168.88.95	20000	READ	-	-
+#close	2016-06-24-11-39-44
